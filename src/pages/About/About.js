@@ -12,7 +12,7 @@ const About = () => {
           <div className='flex justify-center items-center'>
             <p className='text-[13px] text-white w-full opacity-80 md:w-3/4 sm:text-[14px] xl:text-[18px]'>
             Hello my name is Facundo,  I am 20 years old.
-            I have been developing as a hobby for about 6 years, 4 years ago i started working on independent proejcts where i worked with Lua, Python, Javascript, C++, NodeJS, MySQL, etc.
+            I have been developing as a hobby for about 6 years, 4 years ago i started working on independent projects where i worked with Lua, Python, Javascript, C++, NodeJS, MySQL, etc.
             These projects were based on the production of utility and security server programs. I am currently studying system engineering
             and i currently learning for web development with React & Next JS
             </p>
