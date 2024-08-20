@@ -16,7 +16,7 @@ const MobileMenu = () => {
     }
 
     return(
-        <div className="flex w-screen h-screen justify-center items-center ">
+        <div className="flex w-screen h-[100svh] justify-center items-center ">
             <div className='flex flex-col m-4 h-3/4 w-full bg-black bg-opacity-5 backdrop-blur-xl rounded-2xl border sm:hidden'>
                 <button name="Close Menu" onClick={handleMenu} className='flex justify-end p-4'>
                     <MdClose className='w-8 h-8 text-white'/>

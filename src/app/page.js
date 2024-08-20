@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className='flex flex-col w-full cursor-default'>
 
-      <section className="flex flex-col w-full h-screen  bg-verde-oscuro bg-gradient-to-b from-degrade-top to-verde-oscuro">
+      <section className="flex flex-col w-full h-[100svh]  bg-verde-oscuro bg-gradient-to-b from-degrade-top to-verde-oscuro">
         <div className='fixed top-0 right-0 z-50 '>
           <Navbar/>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
         </article>
       </section>
       
-      <section id="projects" className='flex flex-col w-full h-screen bg-verde-oscuro gap-8'>
+      <section id="projects" className='flex flex-col w-full h-[100svh] bg-verde-oscuro gap-8'>
         <div className='flex flex-col w-full  items-center justify-top gap-4'>
             <div className='m-6'>
               <h1 className=' text-[26px] font-extrabold sm:text-[28px] text-white'>Projects</h1>
@@ -62,7 +62,7 @@ export default function Home() {
 
       </section>
 
-      <section id="about" className='flex flex-col w-full h-screen bg-verde-oscuro'>
+      <section id="about" className='flex flex-col w-full h-[100svh] bg-verde-oscuro'>
         <About/>
       </section>
 
