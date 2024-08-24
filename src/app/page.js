@@ -58,6 +58,7 @@ export default function Home() {
 
         <article className='flex flex-col h-full sm:grid sm:grid-cols-2 sm:p-4 gap-2 overflow-hidden mb-12'>
           <Project name="IbizaRP" description="A web page for a FiveM server" logo={Ibiza} page_link="https://ibizarp.net/"/>
+          <Project name="SteamID Finder" description="Search your steamid with your profile URL" logo={SteamIDFinder} page_link="https://hectorfacundoarana.github.io/steamid_finder/"/>
         </article>
 
       </section>
